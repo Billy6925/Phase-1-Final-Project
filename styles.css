@@ -49,11 +49,3 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#search{
-    width: 450px;
-height: 40px;
-}
-.submitButton{
-    width: 100px;
-    height: 40px;
-}
