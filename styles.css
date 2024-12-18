@@ -30,3 +30,7 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+.nav-links a:hover{
+cursor: pointer;
+color: yellow;
+}
