@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: yellow;
 }
 
 .navbar {
@@ -48,4 +48,16 @@ body {
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh;
+}
+.small-image { 
+    width: 200px; 
+    height: auto;
+}
+.carousel-images{
+    margin-left: 1050px;
+}
+.icon{
+    height: 30px;
+    width: 40px;
+    margin-top: 0%;
 }
