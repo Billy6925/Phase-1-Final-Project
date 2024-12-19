@@ -60,3 +60,17 @@ p{
 .cart{
     border:border-box;
 } 
+h1{
+    margin-left: 340px;
+}
+.proImage{
+    width: 200px;
+    height: 40vh;
+}
+.products{
+    padding: 30px;
+    margin: 40px;
+}
+h2{
+    
+}
