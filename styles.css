@@ -50,6 +50,13 @@ p{
     justify-content: space-around;
 }
 .bgImage{
-    width: 1215px;
-    height: 100vh;
+    width: 250px;
+    height: 50vh;
+    padding: 20px;
 }
+.cart:hover{
+    color: #f4f4f4;
+}
+.cart{
+    border:border-box;
+} 
