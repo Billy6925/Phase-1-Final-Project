@@ -66,17 +66,24 @@ h1{
 .proImage{
     width: 200px;
     height: 40vh;
+    flex-basis: 50%;
 }
 .products{
     padding: 30px;
     margin: 40px;
-}
-h2{
-    
 }
 .small-container{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+}
+.wooferImage{
+    width: 300px;
+    flex-basis: 50%;
+    height: 30vh;
+}
+.bike{
+    width: 200px;
+    height: 40vh;
 }
