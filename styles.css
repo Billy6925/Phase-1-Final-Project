@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
-background-color: black;
+background-color: greenyellow;
 justify-content:space-between;
 }
 nav{
@@ -28,11 +28,11 @@ nav{
 }
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
 }
 .nav-links a:hover{
 cursor: pointer;
-color: yellow;
+color: whitesmoke;
 }
 p{
     color: #555;
@@ -48,4 +48,8 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.bgImage{
+    width: 1215px;
+    height: 100vh;
 }
