@@ -87,4 +87,8 @@ margin:70px 0;
     min-width: 250px;
     margin-bottom: 30px;
     display: flex;
+    gap: 50px;
+}
+body{
+    background-color: darkorange;
 }
