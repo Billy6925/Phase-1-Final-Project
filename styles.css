@@ -66,14 +66,17 @@ h1{
 .proImage{
     width: 200px;
     height:50%;
+    transition: transform 0.5s;
 }
 .woofer{
     width: 300px;
     height: 30vh;
+    transition: transform 0.5s;
 }
 .bike{
     width: 150px;
     height: 40vh;
+    transition: transform 0.5s;
 }
 .products{
 margin:70px 0;
@@ -81,6 +84,7 @@ margin:70px 0;
 .cctv{
     width: 150px;
     height: 40vh;
+    transition: transform 0.5s;
 }
 .small-container{
     flex-basis: 50%;
@@ -91,4 +95,19 @@ margin:70px 0;
 }
 body{
     background-color: darkorange;
+}
+.rating .fa{
+    color: darkred;
+}
+.cctv:hover{
+    transform: translateY(-5px);
+}
+.woofer:hover{
+    transform: translateY(-5px);
+}
+.bike:hover{
+    transform: translateY(-5px); 
+}
+.proImage:hover{
+    transform: translateY(-5px);
 }
