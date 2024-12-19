@@ -65,25 +65,26 @@ h1{
 }
 .proImage{
     width: 200px;
-    height: 40vh;
-    flex-basis: 50%;
+    height:50%;
 }
-.products{
-    padding: 30px;
-    margin: 40px;
-}
-.small-container{
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-}
-.wooferImage{
+.woofer{
     width: 300px;
-    flex-basis: 50%;
     height: 30vh;
 }
 .bike{
-    width: 200px;
+    width: 150px;
     height: 40vh;
+}
+.products{
+margin:70px 0;
+}
+.cctv{
+    width: 150px;
+    height: 40vh;
+}
+.small-container{
+    flex-basis: 50%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    display: flex;
 }
