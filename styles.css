@@ -111,3 +111,8 @@ body{
 .proImage:hover{
     transform: translateY(-5px);
 }
+.footer{
+    background: yellowgreen;
+    font-size: 14px;
+    padding: 40px 0 20px;
+}
