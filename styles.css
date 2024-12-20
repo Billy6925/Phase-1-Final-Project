@@ -137,3 +137,11 @@ body{
 ul{
     list-style-type: none;
 }
+.cartButton{
+    border: 2px solid darkred;
+    background: darkred;
+    width: 80px; 
+    color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
