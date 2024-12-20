@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -8,11 +9,11 @@
     width: 40px;
 }
 .navbar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+display: flex;
+align-items: center;
+padding: 20px;
 background-color: greenyellow;
-justify-content:space-between;
+justify-content: space-between;
 }
 nav{
     flex:1;
@@ -137,11 +138,20 @@ body{
 ul{
     list-style-type: none;
 }
-.cartButton{
+.buyButton{
     border: 2px solid darkred;
     background: darkred;
     width: 80px; 
     color: #f4f4f4;
     border-radius: 5px;
     margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.buyButton:hover{
+    background: black;
+}
+#Available{
+    color: darkred;
+    font-size: larger;
 }
