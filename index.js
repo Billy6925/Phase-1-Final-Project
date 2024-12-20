@@ -7,7 +7,7 @@ const items = [
 
 function updateAvailableItems() {
     items.forEach(item => {
-        const availableElement = document.querySelector(`.buyButton[onclick="buyItem('${item.name}')"]`).previousElementSibling;
+        const availableElement = document.querySelector(`.buyButton[data-name="${item.name}"]`).previousElementSibling;
         if (item.quantity > 0) {
             availableElement.textContent = `Available: ${item.quantity}`;
         } else {
@@ -35,6 +35,7 @@ window.onload = () => {
 
 // Add event listeners to buy buttons
 document.querySelectorAll('.buyButton').forEach(button => {
-    const itemName = button.previousElementSibling.previousElementSibling.previousElementSibling.textContent;
+    const itemName = button.parentElement.querySelector('h4').textContent;
+    button.setAttribute('data-name', itemName);
     button.setAttribute('onclick', `buyItem('${itemName}')`);
 });
