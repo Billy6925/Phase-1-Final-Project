@@ -1,8 +1,8 @@
 const items = [
-    { name: "CCTV", price: 20000, category: "electronics", quantity: 3 },
-    { name: "Official Trouser", price: 1500, category: "clothing", quantity: 5 },
-    { name: "Sub-woofer system", price: 8999, category: "electronics", quantity: 2 },
-    { name: "Mountain bike", price: 29000, category: "sports", quantity: 4 }
+    { name: "CCTV", price: 20000, quantity: 3 },
+    { name: "Official Trouser", price: 1500,  quantity: 5 },
+    { name: "Sub-woofer system", price: 8999,  quantity: 2 },
+    { name: "Mountain bike", price: 29000,  quantity: 4 }
 ];
 
 function updateAvailableItems() {
