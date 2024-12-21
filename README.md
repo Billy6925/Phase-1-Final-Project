@@ -9,12 +9,29 @@
 
 ## Description
 This project is about creating an e-commerce website which displays items and allows a user to purchase them. It shows the quantity of available items and when the items are finished it displays 'sold out'. It returns an 'item bought' alert when a user purchases an item.
+It has the following features:
+1. Buying items by clicking on the  'Buy Now' button.
+2. It displays the available items and their quantity.
+3. It displays 'sold out' if an item is depleted.
+4. Returns an alert to notify the user that the item has been bought.
 
 ## Installation
-The use of this code challenge requires one to have node.js installed.
 
+### Prerequisites
+The use of this code challenge requires one to have node.js installed.
+### Steps to install
+1. Clone the repository.
+gitclone https://github.com/your-username/project-name.git
+2. Navigate to the project folder
+cd project-name
+3. Install the dependencies
+npm install
+4. Start the development server
+npm start
+
+Your app will now be running on http://localhost:3000.
 ## Navigating
-To access this Project, go to github and then fork and clone it from the repository <em>Phase-1-Final-Project</em> using this link: <em>https://github.com/Billy6925/Phase-1-Final-Project</em>
+Once the app is running,navigate to http://localhost:3000 in your browser. This allows you to get items from an db.json and also to add items to your db.json by posting.
 
 ## Contributing
 To contribute to this code challenge:
