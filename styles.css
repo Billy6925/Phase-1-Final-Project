@@ -1,157 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: orange;
+}
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-.icon{
-    height: 30px;
-    width: 40px;
-}
 .navbar {
-display: flex;
-align-items: center;
-padding: 20px;
-background-color: greenyellow;
-justify-content: space-between;
-}
-nav{
-    flex:1;
-    text-align: right;
-}
-.nav-links{
-    display: inline-block;
-    list-style-type: none;
-}
-.nav-links li{
-    margin-right: 20px;
-    display: inline;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.nav-links a:hover{
-cursor: pointer;
-color: whitesmoke;
-}
-p{
-    color: #555;
-}
-.container{
-    max-width: 1300px;
-    margin:auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.bgImage{
-    width: 250px;
-    height: 50vh;
     padding: 20px;
+    background-color: yellowgreen;
+    color: white;
+    max-width: 1200px;
+    margin-left: 10px;
 }
-.cart:hover{
-    color: #f4f4f4;
-}
-.cart{
-    border:border-box;
-} 
-h1{
-    margin-left: 340px;
-}
-.proImage{
-    width: 200px;
-    height:50%;
-    transition: transform 0.5s;
-}
-.woofer{
-    width: 300px;
-    height: 30vh;
-    transition: transform 0.5s;
-}
-.bike{
-    width: 150px;
-    height: 40vh;
-    transition: transform 0.5s;
-}
-.products{
-margin:70px 0;
-}
-.cctv{
-    width: 150px;
-    height: 40vh;
-    transition: transform 0.5s;
-}
-.small-container{
-    flex-basis: 50%;
-    min-width: 250px;
-    margin-bottom: 30px;
+
+.nav-links {
     display: flex;
-    gap: 50px;
+    list-style: none;
 }
-body{
-    background-color: darkorange;
+
+.nav-links li {
+    margin: 0 10px;
 }
-.rating .fa{
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.carousel-container img {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.products .buyButton {
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.products .buyButton:hover {
+    background-color: #45a049;
+}
+
+.products .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.rating {
+    margin-bottom: 10px;
     color: darkred;
 }
-.cctv:hover{
-    transform: translateY(-5px);
+.small-container img{
+    width: 200px;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+border-style: none;
 }
-.woofer:hover{
-    transform: translateY(-5px);
+.small-container{
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
 }
-.bike:hover{
-    transform: translateY(-5px); 
-}
-.proImage:hover{
-    transform: translateY(-5px);
+.icon{
+    width: 40px;
+    height: auto;
 }
 .footer{
     background: yellowgreen;
-    font-size: 14px;
-    padding: 40px 0 10px;
     display: flex;
     justify-content: space-around;
 }
-
-.footer p{
-    color: #f4f4f4;
-}
-
-.footer-col-2{
-    text-align: center;
-}
 .footer-col-2 img{
-    width: 80px;
-    height: 10vh;
+width: 100px;
+height: auto;
+margin-bottom: 0px;
+}
+.footer-col-1 img{
+    width: 250px;
+    height: auto;
 }
 .footer-col-3{
-    flex-basis: 12%;
     text-align: center;
 }
-ul{
-    list-style-type: none;
-}
-.buyButton{
-    border: 2px solid darkred;
-    background: darkred;
-    width: 80px; 
-    color: #f4f4f4;
-    border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
+h2{
     text-align: center;
+    margin-bottom: 10px;
 }
-.buyButton:hover{
-    background: black;
-}
-#Available{
-    color: darkred;
-    font-size: larger;
+h1{
+    text-align: center;
 }
