@@ -1,0 +1,62 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "image": "https://gh.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/7896472/1.jpg?4885",
+            "title": "cctv",
+            "category": "Electronics",
+            "rating": "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i><i class=\"fa fa-star-o\"></i>",
+            "Available": "3",
+            "price": "ksh.20,000",
+            "button": "Buy Now"
+        },
+        {
+            "id": "2",
+            "image": "https://i.pinimg.com/originals/13/36/2d/13362d08dd3e0ebb6ddf85c57740760d.jpg",
+            "title": "Official Trouser",
+            "category": "Clothing",
+            "rating": "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i>",
+            "Available": "5",
+            "price": "ksh.1500",
+            "button": "Buy Now"
+        },
+        {
+            "id": "3",
+            "image": "https://kenyaprice.com/wp-content/uploads/2017/12/Best-Sub-Woofer-Speaker-Under-5k-in-Kenya.jpg",
+            "title": "Sub-woofer system",
+            "category": "Electronics",
+            "rating": "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>",
+            "Available": "2",
+            "price": "ksh.8,999",
+            "button": "Buy Now"
+        },
+        {
+            "id": "4",
+            "image": "https://i5.walmartimages.com/asr/8d1f50c9-6c4e-4715-8165-fc165c4aa505_1.3ef6fb025540ab431812e5aca701a38e.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+            "title": "Mountain bike",
+            "category": "Sports",
+            "rating": "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> <i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>",
+            "Available": "4",
+            "price": "ksh.29,000",
+            "button": "Buy Now"
+        }
+    ],
+    "carousel": [
+        {
+            "id": "5",
+            "image": "https://smartcanucks.ca/wp-content/uploads/2014/11/SC-STORES.jpeg"
+        },
+        {
+            "id": "6",
+            "image": "https://th.bing.com/th/id/OIP.iA0KYmMRhLa_g4XkD6MhTQHaHa?rs=1&pid=ImgDetMain"
+        },
+        {
+            "id": "7",
+            "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/682875/1.jpg?1406"
+        },
+        {
+            "id": "8",
+            "image": "https://th.bing.com/th/id/OIP.moxFUTRf97tOurlwy63WjQHaHa?rs=1&pid=ImgDetMain"
+        }
+    ]
+}
